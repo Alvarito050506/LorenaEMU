@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Lorena SO EMU
+Exec=python3 ./Lorena.py
+Icon=/home/user9/SOroot/root/favicon.png
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=Emulation;
