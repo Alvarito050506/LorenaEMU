@@ -19,7 +19,7 @@ for i in range (1, 100000):
 	elif shell == "clear":
 		os.system("clear");
 	elif shell == "version":
-		print("Lorena emu 0.4.0 - Lorena Shll 0.2.0");
+		print("Lorena emu 0.4.0 - Lorena Shell 0.2.0");
 	else:
 		print("No se pudo encontrar el comando.")
 else:
