@@ -1,0 +1,19 @@
+#!/bin/bash
+
+zenity --info --title="¡Bienvenido!"  --text="¡Bienvenido a Lorena EMU!"
+
+vm_hostame="Lorena"
+vm_name="Lorena"
+vm_port=22000
+
+cd_rom="Lorena.iso"
+
+echo " Lorena EMU: Iniciando $vm_name..."
+echo " conectada en $vm_port "
+
+exec qemu-system-i386 \
+    -name $vm_name  \
+    -boot d \
+    -cdrom $cd_rom \
+    &
+
